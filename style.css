@@ -8,10 +8,10 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 .head{
-    background: linear-gradient(180deg,#3e5891,#4d67a0);
+    background: linear-gradient(#4d67a0,#3e5891);
     color: #fff;
     display: flex;
-    height: 85px;
+    height: 83px;
     width: 100%;
     padding: 15px;
     justify-content: space-between;
@@ -19,8 +19,12 @@ body{
 }
 .fb-heading{
     width: 49%;
-    margin: 14px 0 0 177px;
-    font-size: 130%;
+    margin: 12px 0 0 170px;
+    font-size: 125%;
+}
+.icon-anchor{
+    text-decoration: none;
+    color: #fff;
 }
 .login{
     width: 49%;
@@ -28,7 +32,8 @@ body{
 .login-form{
     display: flex;
     flex-direction: row;
-    /* margin-left: 200px; */
+    margin-top: -11px;
+    margin-left: 18px;
 }
 .row{
     margin: 8px;
@@ -36,13 +41,34 @@ body{
     flex-direction: column;
     font-size: large;
 }
+.row input{
+    height: 22px;
+    border: #000 solid 1px;
+}
+.row *{
+    font-size: 12px;
+    line-height: 20px;
+}
+.forgot-acc{
+    color: #ffffff62;
+}
 .lg-btn{
     justify-content: center;
+}
+.login-button{
+    width: 50px;
+    height: 25px;
+    background-color: #3f65ae;
+    border: #00000042 solid 1px;
+    color: #fdfdff;
+    font-size: 14px;
+    font-weight: 700;
 }
 .main{
     height: 100vh;
     width: 100%;
     display: flex;
+    background: linear-gradient(#fdfdff,#d5d7e3);
 }
 .left{
     height: 100%;
@@ -55,6 +81,9 @@ body{
 .right{
     height: 100%;
     width: 50%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
 }
 .right > h4{
     font-size: 250%;
