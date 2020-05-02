@@ -6,6 +6,7 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
+    height: 150vmin;
 }
 .head{
     background: linear-gradient(#4d67a0,#3e5891);
@@ -65,7 +66,7 @@ body{
     font-weight: 700;
 }
 .main{
-    height: 100vh;
+    height: 200%;
     width: 100%;
     display: flex;
     background: linear-gradient(#fdfdff,#d5d7e3);
@@ -103,12 +104,30 @@ body{
 }
 .sighup{
     font-size: 12px;
-    line-height: 50px;
-    line-height: 30px;
+    /* line-height: 50px; */
     padding: 5px 0 5px 10px;
 }
-.sighup > input{
+.main-details > input{
     height: 40px;
-    border: #000 solid 1px;   
+    border: #00000048 solid 1px;   
     border-radius: 1mm;
+    padding:  2px 0px 2px 5px;
+    font-size: 18px;
+    background-color: #ffffff23;
+}
+.main-details{
+    display: grid;
+    grid-template-columns: repeat(2 , 35%);
+    grid-template-rows: repeat(3 , 40px);
+    grid-gap: 10px
+}
+.inp-row{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.lettering{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: cursive;
+    padding: 10px;
 }

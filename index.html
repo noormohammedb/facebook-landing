@@ -44,12 +44,13 @@
                 <h4>Create an account</h4>
                 <p class="simple">It's quick and easy.</p>
                 <form class="sighup">
-                    <input type="text" placeholder="First name">
-                    <input type="text" placeholder="Surname">
-                    <br>
-                    <input type="text" placeholder="Mobile number or email address">
-                    <input type="text" placeholder="New password">
-                    <p>Birthday</p>
+                    <div class="main-details">
+                        <input type="text" placeholder="First name">
+                        <input type="text" placeholder="Surname">
+                        <input type="text" placeholder="Mobile number or email address" class="inp-row">
+                        <input type="text" placeholder="New password" class="inp-row">    
+                    </div>
+                    <p class="lettering">Birthday</p>
                     <select name="" id="">
                         <option value="day">day</option>
                         <option value="1">1</option>
@@ -91,7 +92,7 @@
                         <option value="2007">2007</option>
                         <option value="2008">2008</option>
                     </select>
-                    <p>Gender</p>
+                    <p class="lettering">Gender</p>
                     <label for="gender">Male</label>                    
                     <input type="radio" name="gender" id="Male">
                     <label for="gender">Female</label>                    
