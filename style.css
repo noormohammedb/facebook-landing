@@ -74,18 +74,41 @@ body{
     height: 100%;
     width: 50%;
 }
-.connect-picture{
-    
-    background-color: #0f0f0f62;
+.contant{
+    margin: 54px 0 0 185px;
+
 }
+.banner-quoat{
+    font-size: 20px;
+    font-weight:700;
+    color: #1b3453;
+}
+
 .right{
     height: 100%;
     width: 50%;
-    padding: 40px;
+    padding: 20px 0 0 60px;
     display: flex;
     flex-direction: column;
 }
 .right > h4{
-    font-size: 250%;
+    font-size: 220%;
     color: #3d3d3d;
+    padding: 5px 0 5px 10px;
+}
+.simple{    
+    padding: 5px 0 5px 10px;
+    font-size: 19px;
+    font-weight: 510;
+}
+.sighup{
+    font-size: 12px;
+    line-height: 50px;
+    line-height: 30px;
+    padding: 5px 0 5px 10px;
+}
+.sighup > input{
+    height: 40px;
+    border: #000 solid 1px;   
+    border-radius: 1mm;
 }
