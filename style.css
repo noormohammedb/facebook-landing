@@ -192,3 +192,32 @@ body {
     text-decoration: none;
     color: #355781;
 }
+footer{
+    height: 90px !important;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hr{
+    width: 40%;
+    margin-bottom: 5px;
+}
+.middle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+}
+.middle p{
+    padding-bottom: 10px;
+    color: #6b6b6d;
+    /* justify-content: center; */
+}
+.middle p a{
+    text-decoration: none;
+    color: #355781;
+}
+.hr hr{
+    color: #6b6b6d94;
+}
