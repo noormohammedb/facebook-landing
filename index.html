@@ -51,56 +51,64 @@
                         <input type="text" placeholder="New password" class="inp-row">    
                     </div>
                     <p class="lettering">Birthday</p>
-                    <select name="" id="">
-                        <option value="day">day</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
-                        <option value="9">9</option>
-                        <option value="10">10</option>
-                    </select>
-                    <select name="" id="">
-                        <option value="month">month</option>
-                        <option value="jan">january</option>
-                        <option value="feb">feb</option>
-                        <option value="mar">mar</option>
-                        <option value="april">april</option>
-                        <option value="may">may</option>
-                        <option value="june">june</option>
-                        <option value="july">july</option>
-                        <option value="aug">aug</option>
-                        <option value="sep">sep</option>
-                        <option value="oct">oct</option>
-                        <option value="nov">nov</option>
-                        <option value="dec">dec</option>
-                    </select>
-                    <select name="" id="">
-                        <option value="year">year</option>
-                        <option value="1999">1999</option>
-                        <option value="2000">2000</option>
-                        <option value="2001">2001</option>
-                        <option value="2002">2002</option>
-                        <option value="2003">2003</option>
-                        <option value="2004">2004</option>
-                        <option value="2005">2005</option>
-                        <option value="2006">2006</option>
-                        <option value="2007">2007</option>
-                        <option value="2008">2008</option>
-                    </select>
+                    <div class="dob-select">
+                        <select name="" id="">
+                            <option value="day">day</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                        <select name="" id="">
+                            <option value="month">month</option>
+                            <option value="jan">january</option>
+                            <option value="feb">feb</option>
+                            <option value="mar">mar</option>
+                            <option value="april">april</option>
+                            <option value="may">may</option>
+                            <option value="june">june</option>
+                            <option value="july">july</option>
+                            <option value="aug">aug</option>
+                            <option value="sep">sep</option>
+                            <option value="oct">oct</option>
+                            <option value="nov">nov</option>
+                            <option value="dec">dec</option>
+                        </select>
+                        <select name="" id="">
+                            <option value="year">year</option>
+                            <option value="1999">1999</option>
+                            <option value="2000">2000</option>
+                            <option value="2001">2001</option>
+                            <option value="2002">2002</option>
+                            <option value="2003">2003</option>
+                            <option value="2004">2004</option>
+                            <option value="2005">2005</option>
+                            <option value="2006">2006</option>
+                            <option value="2007">2007</option>
+                            <option value="2008">2008</option>
+                        </select>
+    
+                    </div>
                     <p class="lettering">Gender</p>
-                    <label for="gender">Male</label>                    
-                    <input type="radio" name="gender" id="Male">
-                    <label for="gender">Female</label>                    
-                    <input type="radio" name="gender" id="Femail">
-                    <label for="gender">Other</label>                    
-                    <input type="radio" name="gender" id="Other">
-                    <span>&quest;</span>
-                    <p>By Clicking Sign Up, you agree to out Terms, Data Policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.</p>
+                    <div class="radio-genser">
+                        <input type="radio" name="gender" id="Male">
+                        <label for="gender" class="gender">Male</label>                    
+                        <input type="radio" name="gender" id="Femail">
+                        <label for="gender" class="gender">Female</label>                    
+                        <input type="radio" name="gender" id="Custom">
+                        <label for="gender" class="gender">Custom</label>                    
+                        <span class="quest">&quest;</span>
+    
+                    </div>
+                    <div class="agreement">
+                    <p>By Clicking Sign Up, you agree to out <span class="blue-text">Terms, Data Policy</span> and <span class="blue-text">Cookie Policy</span>. You may receive SMS notifications from us and can opt out at any time.</p>
+                    </div>
                     <button class="signup-button">Sign Up</button>
                 </form>
                 <p><a href="#">Create a Page </a>for a clebrity,band or bussiness.</p>
