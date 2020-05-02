@@ -6,7 +6,7 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    height: 150vmin;
+    /* height: 150vmin; */
 }
 .head{
     background: linear-gradient(#4d67a0,#3e5891);
@@ -66,7 +66,7 @@ body{
     font-weight: 700;
 }
 .main{
-    height: 200%;
+    height: 150vh;
     width: 100%;
     display: flex;
     background: linear-gradient(#fdfdff,#d5d7e3);
