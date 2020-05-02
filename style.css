@@ -103,7 +103,6 @@ body{
 }
 .sighup{
     font-size: 12px;
-    /* line-height: 50px; */
     padding: 10px 0 5px 10px;
 }
 .main-details > input{
@@ -168,5 +167,18 @@ body{
     color: #6b6b6d;
 }
 .blue-text{
-    color: #171788 ;
+    color: #355781;
+}
+.signup-button{
+    background: linear-gradient(#70b85a,#507e3d);
+    padding: 5px;
+    margin: 25px 0;
+    color: #fff;
+    font-size: 18px;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: #58a046;
+    /* border-style: double; */
+    border-image: none;
 }
