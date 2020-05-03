@@ -5,7 +5,9 @@
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
-  /* height: 150vmin; */
+}
+.container{
+  width:  fit-content;
 }
 .head {
   background: linear-gradient(#4d67a0, #3e5891);
@@ -73,6 +75,8 @@ body {
 .left {
   height: 100%;
   width: 50%;
+  display: flex;
+  justify-content: center;
 }
 .contant {
   margin: 54px 0 0 185px;
@@ -212,12 +216,11 @@ footer{
 .middle p{
     padding-bottom: 10px;
     color: #6b6b6d;
-    /* justify-content: center; */
 }
 .middle p a{
     text-decoration: none;
     color: #355781;
 }
-.hr hr{
+.hr > hr{
     color: #6b6b6d94;
 }
